@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
 import { Typography } from "@mui/material";
+import Link from "next/link";
 
 const Mainpost = () => {
   return (
     <>
+    <Link href={'blog/abc'}>
       <div
         className="w-[600px] h-[450px] bg-red-200 ml-6 my-2 rounded bg-center bg-no-repeat bg-cover  relative drop-shadow-2xl cursor-pointer"
         style={{
@@ -23,6 +25,7 @@ const Mainpost = () => {
           </Typography>
         </div>
       </div>
+      </Link>
     </>
   );
 };
