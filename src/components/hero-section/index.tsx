@@ -2,18 +2,17 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-const Mainpost = () => {
+const HeroSection = () => {
   return (
-    <>
+
       <div
-        className="w-[600px] h-[450px] bg-red-200 ml-6 my-2 rounded bg-center bg-no-repeat bg-cover  relative drop-shadow-2xl cursor-pointer"
+        className="w-full h-[85vh]  overflow-hidden  rounded-lg bg-center bg-no-repeat bg-cover  relative"
         style={{
           backgroundImage:
             "url('https://ventsmagazine.com/wp-content/uploads/2020/11/blog.jpg')",
         }}
       >
-        <div className="absolute bottom-0 pb-6 text-center text-white text-shadow-lg  backdrop-grayscale-0 bg-black/30">
-          {" "}
+        <div className="absolute bottom-0 py-6 text-center text-white text-shadow-lg  bg-blackBlur">
           <Typography variant="h4">Title</Typography>
           <Typography variant="body2" className="px-4 ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -23,8 +22,8 @@ const Mainpost = () => {
           </Typography>
         </div>
       </div>
-    </>
+
   );
 };
 
-export default Mainpost;
+export default HeroSection;

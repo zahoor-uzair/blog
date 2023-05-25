@@ -7,13 +7,16 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
-import ListItemData from "./listdata";
-const SideList = () => {
+import ListItemData from "../listdata";
+
+const SideBar = () => {
   return (
     <List
-      className="h-screen overflow-auto"
+      className="h-[85vh] rounded-lg overflow-auto relative"
       sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
     >
+
+      <h1 className="text-2xl font-bold text-center sticky bg-white pb-2 pt-1 shadow opacity-100 -top-2 left-10 z-10">Top Posts</h1>
       {ListItemData.map((item, index) => (
         <React.Fragment key={index}>
           <ListItem alignItems="flex-start">
@@ -56,4 +59,4 @@ const SideList = () => {
   );
 };
 
-export default SideList;
+export default SideBar;
