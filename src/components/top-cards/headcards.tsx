@@ -1,13 +1,11 @@
 "use client";
 import React from 'react'
-import PostCard from './card';
-
-// import BlogCard from './card2'
+import PostCard from '../card';
 
 const Headcards = () => {
   return (
     <>
-    <div className="flex justify-evenly bg-gray-200 flex-wrap py-2 my-4" >
+    <div className="flex justify-between gap-4 py-4 w-full flex-row mt-10" >
       <PostCard/>
       <PostCard/>
       <PostCard/>
