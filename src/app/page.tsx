@@ -4,7 +4,7 @@ import LandingPage from "../components/landing-page";
 
 export default function Home() {
   return (
-    <main className="w-full bg-main">
+    <main className="w-full">
       <Navbar />
       <LandingPage />
       <Footer />
