@@ -5,9 +5,9 @@ const Navbar = () => {
     "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent text-blue-900 md:border-0 hover:text-gray-300 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
 
   const menuItems = [
-    { label: "Home", href: "#" },
-    { label: "About", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (

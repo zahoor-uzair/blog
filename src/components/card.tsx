@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 const Card = () => {
   return (
 <div className='h-[12rem]  overflow-hidden rounded-lg'>
