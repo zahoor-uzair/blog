@@ -14,7 +14,7 @@ const ContactForm = () => {
         <form action="" className="flex flex-col px-10 py-4">
           <Typography
             variant="h5"
-            className="w-full text-center mt-2 font-bold text-blue-950"
+            className="w-full text-center mt-2 font-bold text-slate-700"
           >
            Hit Us Up
           </Typography>
@@ -28,7 +28,7 @@ const ContactForm = () => {
             maxRows={4}
             sx={{ marginTop: "10px", marginBottom: "10px" }}
           />
-          <button className="mt-6 w-full bg-blue-950 text-white h-12 rounded-md">
+          <button className="mt-6 w-full bg-slate-700 text-white h-12 rounded-md">
             Submit
           </button>
         </form>

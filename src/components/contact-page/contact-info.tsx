@@ -7,7 +7,7 @@ const stl={
 const ContactInfo = () => {
   return (
     <>
-    <div className="w-[50%] bg-blue-950/90  text-white px-10 rounded-r-lg shadow-lg">
+    <div className="w-[50%] bg-slate-700  text-white px-10 rounded-r-lg shadow-lg">
           <div className='mt-24'>
           <Typography
             variant="h5"
