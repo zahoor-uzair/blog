@@ -7,9 +7,9 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
-import ListItemData from "../listdata";
+import ListItemData from "../../constrains/listdata";
 
-const SideBar = () => {
+const index = () => {
   return (
     <List
       className="h-[85vh] rounded-lg overflow-auto relative"
@@ -59,4 +59,4 @@ const SideBar = () => {
   );
 };
 
-export default SideBar;
+export default index;

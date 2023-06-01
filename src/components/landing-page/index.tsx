@@ -1,7 +1,5 @@
 import React from "react";
-import Headcards from "../top-cards/headcards";
-import HeroSection from "../hero-section";
-import SideBar from "../side-bar/sidelist";
+import { SideBar, HeroSection, TopCards } from "..";
 
 const index = () => {
   return (
@@ -10,7 +8,7 @@ const index = () => {
         <HeroSection />
         <SideBar />
       </div>
-      <Headcards />
+      <TopCards />
     </div>
   );
 };

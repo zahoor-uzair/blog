@@ -2,7 +2,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 
-const MainHead = (props: any) => {
+const index = (props: any) => {
   return (
     <>
     <div className="w-full h-[20vh] flex justify-center items-center">
@@ -12,4 +12,4 @@ const MainHead = (props: any) => {
   );
 };
 
-export default MainHead;
+export default index;

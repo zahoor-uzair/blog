@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -13,13 +14,13 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 shadow-md z-50 ">
       <div className=" flex flex-wrap items-center justify-between w-[95%] m-auto">
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <img
             src="/sherlock-logo.png"
             className="h-16 "
             alt="Flowbite Logo"
           />
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -46,13 +47,13 @@ const Navbar = () => {
           <ul className="font-medium flex flex-col  border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {menuItems.map((item, index) => (
               <li key={index}>
-                <a
+                <Link
                   href={item.href}
                   className={listItemClasses}
                   aria-current="page"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

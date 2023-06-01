@@ -2,7 +2,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-const HeroSection = () => {
+const index = () => {
   return (
 
       <div
@@ -26,4 +26,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default index;

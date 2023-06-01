@@ -1,15 +1,15 @@
 import React from 'react'
 import ProfileCard from './profilecard'
 
-const ProfileSection = () => {
+const index = () => {
   return (
     <>
     <div className='flex justify-center items-center p-6 flex-wrap'>
-        <ProfileCard />
-        <ProfileCard />
+        <ProfileCard profile={"Muhabat Khan Niazi"}/>
+        <ProfileCard profile={"Uzair Khan Baloch"}/>
     </div>
     </>
   )
 }
 
-export default ProfileSection
+export default index

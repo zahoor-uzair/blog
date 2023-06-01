@@ -3,7 +3,7 @@ import React from 'react'
 import ContactForm from './contact-form'
 import ContactInfo from './contact-info'
 
-const ContactContainer = () => {
+const index = () => {
   return (
     <div className="w-full flex p-10">
         <ContactForm />
@@ -12,4 +12,4 @@ const ContactContainer = () => {
   )
 }
 
-export default ContactContainer
+export default index

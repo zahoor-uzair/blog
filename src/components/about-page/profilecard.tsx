@@ -1,9 +1,8 @@
 "use client";
 import { Typography } from "@mui/material";
-// import Image from "next/image";
 import React from "react";
 
-const ProfileCard = () => {
+const ProfileCard = ({profile}:{profile:string}) => {
   return (
     <>
       <div className="w-80 h-[400px] flex flex-col justify-center items-center p-6 rounded-md mx-10 shadow-2xl">
@@ -16,7 +15,7 @@ const ProfileCard = () => {
           }
           alt="profile"
         ></img>
-        <Typography variant="h5">Muhabat Khan Niazi</Typography>
+        <Typography variant="h5">{profile}</Typography>
         <Typography variant="body1" className="text-blue-950">
           Software Engineer
         </Typography>

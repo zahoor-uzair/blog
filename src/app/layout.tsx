@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Navbar,Footer } from "@/components";
 
 export const metadata = {
   title: "Sherlock thinker bloger",
@@ -12,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
