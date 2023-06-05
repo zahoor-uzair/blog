@@ -10,11 +10,12 @@ const SingleBlog = () => {
     "Puta possimus, aspernatur officiis ullam minima a, in praesentium assumenda nostrum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nam, quos est cupiditate dolorum atque molestiae minus veritatis dicta tempora aperiam exercitationem blanditiis voluptatibus consequuntur sequi nihil impedit repellat. Itaque.";
 
   return (
+    <>
+        <Navbar />
     <div className="container m-auto">
-      <Navbar />
       <header>
         <img
-          className="w-full h-[80vh] rounded-b-lg"
+          className="w-full lg:h-[80vh] rounded-b-lg"
           src={imageUrl}
           alt="image"
         />
@@ -34,7 +35,7 @@ const SingleBlog = () => {
         <section>
           <h2 className="text-2xl m-8">{sectionTitle}</h2>
           <img
-            className="w-1/2 h-[50vh] m-auto rounded-lg"
+            className="lg:w-1/2 md:w-9/12 sm:w-full xs:w-full h-[50vh] m-auto rounded-lg"
             src={imageUrl}
             alt="image"
           />
@@ -64,7 +65,7 @@ const SingleBlog = () => {
         <section>
           <h2 className="text-2xl m-8">{sectionTitle}</h2>
           <img
-            className="w-1/2 h-[50vh] m-auto rounded-lg"
+            className="lg:w-1/2 md:w-9/12 sm:w-full xs:w-full h-[50vh] m-auto rounded-lg"
             src={imageUrl}
             alt="image"
           />
@@ -95,8 +96,10 @@ const SingleBlog = () => {
           </ul>
         </section>
       </article>
-      <Footer />
+     
     </div>
+    <Footer />
+    </>
   );
 };
 
